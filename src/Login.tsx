@@ -270,7 +270,7 @@ const LoginForm: React.FC<LoginFormProps>  = ({open, setOpen}) => {
   return (
 <div className='my-24 relative'>
 <div className='absolute  left-1/2 top-3 bg-green-500 rounded-md   transform -translate-x-1/2'>
-  {isVisible &&<p className='p-4 rounded-md visible text-white' >SignUp successfull</p>}
+  {isVisible &&<p className='p-4 rounded-md visible text-white' >Login successfull</p>}
 </div>
     <div className =' w-96 h-96 m-auto '>
     <form onSubmit={formik.handleSubmit} className='flex flex-col gap-6'>
